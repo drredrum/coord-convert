@@ -1,0 +1,1 @@
+Simple script accepting a single xlsx file with coordinates to convert. Right now only conversion from EPSG4326 to EPSG 2180 is supported. The script searches for columns named `X_84` and `Y_84` containing the coordinates (only single-row header is accepted). Then it adds two columns with converted coordinates to the end of the table and saves the output as a new excel file.
